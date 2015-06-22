@@ -9,21 +9,18 @@ Doing it with jQuery is pretty simple, jQuery has the [when function](http://api
 
 Where ajax1 and ajax2 functions returns [Deferred](http://api.jquery.com/category/deferred-object/)  object:
 
-    function ajax1(){
-	    return $.ajax({
+	function ajax1(){
+		return $.ajax({
 		    type: 'GET',
 		    url: 'index.html'
-		}).done(function(){
-				console.log("index.html");
-				});
+		}).done(function(){ console.log("index.html"); });
 	}
-	   function ajax2(){
-	    return $.ajax({
-		    type: 'GET',
-		    url: 'about.html'
-		}).done(function(){
-				console.log("about.html");
-				});
+	   
+	function ajax2(){
+		return $.ajax({
+			type: 'GET',
+			url: 'about.html'
+		}).done(function(){ console.log("about.html"); });
 	}  
 Running it will output (first and second lines can change places):
 
