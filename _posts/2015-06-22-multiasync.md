@@ -22,7 +22,9 @@ Where ajax1 and ajax2 functions returns [Deferred](http://api.jquery.com/categor
 			url: 'about.html'
 		}).done(function(){ console.log("about.html"); });
 	}  
-Running it will output (first and second lines can change places):
+	 
+Running it will output (first and second lines can change places):  
+
 
     index.html  
     about.html  
