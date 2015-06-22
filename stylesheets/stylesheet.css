@@ -9,6 +9,10 @@
 font-family: Aileron;
 src: url("fonts/Aileron-Regular.otf") format("opentype");
 }
+@font-face {
+font-family: Inconsolata;
+src: url("fonts/Inconsolata.otf") format("opentype");
+}
 
 html {
   font-family: sans-serif; /* 1 */
@@ -550,8 +554,8 @@ aside a.button {
 
 code, pre {
   margin-bottom: 30px;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
+  font-family: "Inconsolata", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 1em;
   color: #222;
 }
 

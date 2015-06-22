@@ -7,6 +7,13 @@ font-family: Aileron;
 font-weight: bold;
 src: url("fonts/Aileron-Bold.otf") format("opentype");
 }
+@font-face {
+font-family: Aileron;
+font-weight: lighter;
+src: url("fonts/Aileron-Light.otf") format("opentype");
+}
+
+
 
 .post__header{
 	background: none;
@@ -31,3 +38,11 @@ src: url("fonts/Aileron-Bold.otf") format("opentype");
   color: #9ddcff;
   content: "///";
 }
+
+.post__excerpt {
+	font-size: 1.2em;
+	font-weight: lighter;
+	font-family: 'Aileron', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+
