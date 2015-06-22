@@ -1,8 +1,8 @@
 
 
 
-> The problem: waiting for the two (or more) async http calls to finish
-> Doing it with jQuery is pretty simple:
+> Recently we encountered a request to run some callback only after the processing of two async calls.
+> doing it with jQuery is pretty simple:
 > jQuery has the [when function](http://api.jquery.com/jQuery.when/) and you can use it like this:
 > `$.when(ajax1(),ajax2()).done(function(a1, a2){});`
 > 
