@@ -1,0 +1,33 @@
+@font-face {
+font-family: Aileron;
+src: url("fonts/Aileron-Regular.otf") format("opentype");
+}
+@font-face {
+font-family: Aileron;
+font-weight: bold;
+src: url("fonts/Aileron-Bold.otf") format("opentype");
+}
+
+.post__header{
+	background: none;
+	font-family: 'Aileron';
+	font-weight: normal;
+}
+
+.post__title{
+	font-family: 'Aileron', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	margin-top: 0;
+  	margin-bottom: 0;
+  	font-size: 2.0em;
+  	font-weight: bold;
+  	color: #474747;
+  	text-indent: 6px;
+  	letter-spacing: -1px; 	
+}
+
+.post__title:before {
+  padding-right: 0.3em;
+  margin-left: -0.9em;
+  color: #9ddcff;
+  content: "/";
+}
