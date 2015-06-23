@@ -8,7 +8,7 @@ Doing it with jQuery is pretty simple, jQuery has the [when function](http://api
   
 
 Where ajax1 and ajax2 functions returns [Deferred](http://api.jquery.com/category/deferred-object/)  object:
-
+{% highlight javascript%}
 	function ajax1(){
 		return $.ajax({
 		    type: 'GET',
@@ -22,7 +22,7 @@ Where ajax1 and ajax2 functions returns [Deferred](http://api.jquery.com/categor
 			url: 'about.html'
 		}).done(function(){ console.log("about.html"); });
 	}  
-	 
+{% endhighlight %}	 
 Running it will output (first and second lines can change places):  
 
 
