@@ -33,3 +33,24 @@
 }
 
 
+.blog__footer .who-am-i {
+  width: 25%;
+  margin-right: 45px;
+  float: left;
+}
+.blog__footer .find-me {
+  width: 25%;
+  margin-right: 45px;
+  float: left;
+  padding-left: 40px;
+  border-left: 1px solid #FFF
+}
+.blog__footer .projects {
+  width: 25%;
+  margin-right: 45px;
+  float: left;
+  border-left: 1px solid #FFF;
+  padding-left: 40px;
+  margin-left: 40px;
+}
+

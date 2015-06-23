@@ -463,8 +463,8 @@ header h1 {
   width: 540px;
   margin-top: 0;
   margin-bottom: 0.2em;
-  font-size: 72px;
-  font-weight: normal;
+  font-size: 3em;
+  font-weight: bold;
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
@@ -746,13 +746,20 @@ dl dd {
 }
 
 footer {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 40px;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: 0px;
   font-size: 13px;
-  color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  font-family: 'Open Sans','Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  color: #FFF;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  /*background: transparent url('../images/hr.png') 0 0 no-repeat;*/
+  min-height: 200px;
 }
+
+
 
 footer a {
   color: #666;
