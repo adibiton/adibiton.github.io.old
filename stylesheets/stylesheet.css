@@ -751,7 +751,7 @@ footer {
   padding-right: 60px;
   padding-left: 60px;
   margin-top: 0px;
-  font-size: 13px;
+  font-size: 1em;
   font-family: 'Open Sans','Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   color: #FFF;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
@@ -762,10 +762,10 @@ footer {
 
 
 footer a {
-  color: #666;
+  color: yellow;
 }
 footer a:hover {
-  color: #444;
+  color: orange;
 }
 
 /* MISC */
