@@ -19,12 +19,14 @@ Where ajax1 and ajax2 functions returns [Deferred](http://api.jquery.com/categor
 	}).done(function(){ console.log("index.html"); });
 }
 	   
+
 function ajax2(){
 	return $.ajax({
 		type: 'GET',
 		url: 'about.html'
 	}).done(function(){ console.log("about.html"); });
 }  
+
 {% endhighlight %}
 	 
 Running it will output (first and second lines can change places):  
@@ -55,7 +57,9 @@ var oPromise2 = new Promise(
 	
 Promise.all([oPromise1, oPromise2]).then(function(a){
 		console.log(a); 
+
 });  
+
 {% endhighlight %}
 		
 	       
