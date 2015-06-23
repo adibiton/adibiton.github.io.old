@@ -6,11 +6,11 @@
  *    user zoom.
  */
 
-@font-face {
+/*@font-face {
 font-family: Inconsolata;
 src: url("fonts/Inconsolata.otf") format("opentype");
 }
-
+}*/
 html {
   font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
