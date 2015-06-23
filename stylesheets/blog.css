@@ -1,6 +1,6 @@
 .post__header{
 	background: none;
-	font-family: 'Aileron';
+	font-family: 'Open Sans';
 	font-weight: normal;
 }
 
@@ -9,7 +9,7 @@
 	margin-top: 0;
   	margin-bottom: 0;
   	font-size: 2.0em;
-  	font-weight: bold;
+  	font-weight: 400;
   	color: #474747;
   	text-indent: 6px;
   	letter-spacing: -1px; 	
@@ -23,11 +23,13 @@
 }
 .post__date {
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-weight: 400;
 }
 .post__excerpt {
 	font-size: 1.2em;
 	font-weight: lighter;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-weight: 400;
 }
 
 
