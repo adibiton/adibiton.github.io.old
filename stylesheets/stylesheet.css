@@ -5,10 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@font-face {
-font-family: Aileron;
-src: url("fonts/Aileron-Regular.otf") format("opentype");
-}
+
 @font-face {
 font-family: Inconsolata;
 src: url("fonts/Inconsolata.otf") format("opentype");
