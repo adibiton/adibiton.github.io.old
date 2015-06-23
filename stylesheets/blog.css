@@ -1,20 +1,3 @@
-@font-face {
-font-family: Aileron;
-src: url("fonts/Aileron-Regular.otf") format("opentype");
-}
-@font-face {
-font-family: Aileron;
-font-weight: bold;
-src: url("fonts/Aileron-Bold.otf") format("opentype");
-}
-@font-face {
-font-family: Aileron;
-font-weight: lighter;
-src: url("fonts/Aileron-Light.otf") format("opentype");
-}
-
-
-
 .post__header{
 	background: none;
 	font-family: 'Aileron';
@@ -22,7 +5,7 @@ src: url("fonts/Aileron-Light.otf") format("opentype");
 }
 
 .post__title{
-	font-family: 'Aileron', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: 'Open Sans', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 	margin-top: 0;
   	margin-bottom: 0;
   	font-size: 2.0em;
@@ -38,11 +21,13 @@ src: url("fonts/Aileron-Light.otf") format("opentype");
   color: #9ddcff;
   content: "///";
 }
-
+.post__date {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
+}
 .post__excerpt {
 	font-size: 1.2em;
 	font-weight: lighter;
-	font-family: 'Aileron', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 
