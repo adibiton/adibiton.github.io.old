@@ -13,20 +13,18 @@ Where ajax1 and ajax2 functions returns [Deferred](http://api.jquery.com/categor
 {% highlight javascript linenos %}
 
 	function ajax1(){
-	return $.ajax({
-		type: 'GET',
-		url: 'index.html'
-	}).done(function(){ console.log("index.html"); });
-}
+		return $.ajax({
+		    type: 'GET',
+		    url: 'index.html'
+		}).done(function(){ console.log("index.html"); });
+	}
 	   
-
-function ajax2(){
-	return $.ajax({
-		type: 'GET',
-		url: 'about.html'
-	}).done(function(){ console.log("about.html"); });
-}  
-
+	function ajax2(){
+		return $.ajax({
+			type: 'GET',
+			url: 'about.html'
+		}).done(function(){ console.log("about.html"); });
+	}  
 {% endhighlight %}
 	 
 Running it will output (first and second lines can change places):  
@@ -47,7 +45,7 @@ There is some other way to implement it with vanilla javascript  - using the Pro
 			});
 		});
 	
-var oPromise2 = new Promise(
+	var oPromise2 = new Promise(
 	function(resolve, reject) {
 		$.ajax({type: 'GET', url:'index.html'}).done(
 			function(data, message) {
@@ -55,11 +53,10 @@ var oPromise2 = new Promise(
 			});
 		});
 	
-Promise.all([oPromise1, oPromise2]).then(function(a){
+	Promise.all([oPromise1, oPromise2]).
+	then(function(a){
 		console.log(a); 
-
-});  
-
+	});  
 {% endhighlight %}
 		
 	       
