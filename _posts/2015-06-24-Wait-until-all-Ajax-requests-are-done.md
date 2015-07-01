@@ -1,3 +1,12 @@
+---
+layout: 
+title: Wait until all ajax requests are done
+categories: []
+tags: [ajax]
+published: True
+
+---
+
 During some code review with my teammate we tackled a code where we wanted to call some method only after two asynchronous calls finished processing.  
 
 Doing it with jQuery is pretty simple, jQuery has the [when function](http://api.jquery.com/jQuery.when/) and you can use it like this:  

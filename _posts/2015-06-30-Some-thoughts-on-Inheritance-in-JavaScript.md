@@ -1,3 +1,11 @@
+---
+layout: 
+title: Some thoughts on inheritance in JavaScript
+categories: []
+tags: [inheritance, JavaScript]
+published: True
+
+---
 
 There are some very good tutorials on the web for the above topic (e.g. [MDN Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)).
 
