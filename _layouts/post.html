@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+
+{% include blog/head.html %}
+
+<body class="body--blog">
+	<div class="content content--blog">
+	{% include blog/header.html %}
+
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">
+				{{ page.title }}
+			</h1>
+		</header>
+	</article>
+
+	</div>
+</body>
+</html>
