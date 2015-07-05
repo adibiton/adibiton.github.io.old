@@ -2,7 +2,7 @@
 layout: 
 title: tips for cygwin newbie
 categories: []
-tags: []
+tags: [cygwin]
 published: True
 
 ---
